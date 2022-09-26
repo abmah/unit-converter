@@ -78,3 +78,12 @@ button:hover {
 button:active {
   transform: scale(0.95);
 }
+
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 90%;
+  }
+  body {
+    font-size: 0.8em;
+  }
+}
